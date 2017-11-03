@@ -8,11 +8,12 @@ import android.widget.AbsListView;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
-import com.nuaa.testnetwork.R;
-import com.nuaa.util.Globals;
+import com.example.administrator.myapplication.R;
 
 import java.util.List;
 import java.util.Map;
+
+import nuaa.util.Globals;
 
 /**
  * Created by Administrator on 2017/11/2.
@@ -44,15 +45,15 @@ public class UserAdapter extends BaseAdapter {
 
     @Override
     public View getView(int i, View view, ViewGroup viewGroup) {
-        if(view==null) {
-            view = LayoutInflater.from(ctx).inflate(R.layout.list_item, null);
-            view.setLayoutParams(new AbsListView.LayoutParams(AbsListView.LayoutParams.MATCH_PARENT, Globals.SCREEN_HEIGHT / 7));
-        }
+//        if(view==null) {
+//            view = LayoutInflater.from(ctx).inflate(R.layout.list_item, null);
+//            view.setLayoutParams(new AbsListView.LayoutParams(AbsListView.LayoutParams.MATCH_PARENT, Globals.SCREEN_HEIGHT / 7));
+//        }
 
         Map<String, Object> map = allValues.get(i);
-        TextView idView = (TextView)view.findViewById(R.id.id_txt);
-        TextView pwdView = (TextView)view.findViewById(R.id.pwd_txt);
-        TextView emailView = (TextView)view.findViewById(R.id.email_txt);
+        TextView idView = (TextView)view.findViewById(R.id.inputxuehao);
+        TextView pwdView = (TextView)view.findViewById(R.id.inputpassword);
+        TextView emailView = (TextView)view.findViewById(R.id.input_email);
 
 
         idView.setText(map.get("id").toString());

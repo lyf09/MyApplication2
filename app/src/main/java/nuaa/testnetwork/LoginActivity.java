@@ -79,8 +79,6 @@ public class LoginActivity extends AppCompatActivity {
         dialog.setMessage("数据正在加载，请稍候....");
         dialog.show();
 
-
-
         Thread t = new Thread() {
             @Override
             public void run() {
