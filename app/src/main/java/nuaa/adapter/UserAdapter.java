@@ -8,11 +8,12 @@ import android.widget.AbsListView;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
-import com.example.administrator.myapplication.R;
+
 
 import java.util.List;
 import java.util.Map;
 
+import nuaa.testnetwork.R;
 import nuaa.util.Globals;
 
 /**

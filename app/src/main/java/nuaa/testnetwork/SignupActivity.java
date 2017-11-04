@@ -12,7 +12,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.administrator.myapplication.R;
+
 
 import java.util.HashMap;
 import java.util.Map;

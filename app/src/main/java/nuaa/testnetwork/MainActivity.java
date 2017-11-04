@@ -20,7 +20,7 @@ import android.os.Bundle;
         import android.widget.ImageView;
         import android.widget.TextView;
 
-        import com.example.administrator.myapplication.R;
+
 
         import java.util.ArrayList;
         import java.util.List;
