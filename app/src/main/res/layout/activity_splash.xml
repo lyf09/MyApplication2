@@ -4,5 +4,5 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@mipmap/bg_splash"
-    tools:context="com.example.myapplication.SplashActivity">
+    tools:context="nuaa.testnetwork.SplashActivity">
 </RelativeLayout>
