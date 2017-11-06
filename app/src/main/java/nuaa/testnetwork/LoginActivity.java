@@ -60,7 +60,7 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
 
-       // list = (ListView)findViewById(R.id.list);
+//        list = (ListView)findViewById(R.id.login_form);
 
 
         handler = new Handler(){
@@ -89,6 +89,7 @@ public class LoginActivity extends AppCompatActivity {
         t.start();
 
     }
+
 
     public void loadData() {
         try {
