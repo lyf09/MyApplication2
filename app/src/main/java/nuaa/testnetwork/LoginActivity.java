@@ -63,15 +63,15 @@ public class LoginActivity extends AppCompatActivity {
 //        list = (ListView)findViewById(R.id.login_form);
 
 
-        handler = new Handler(){
-            @Override
-            public void handleMessage(Message msg) {
-                if(msg.what==0) {
-                    adapter = new UserAdapter(LoginActivity.this, allValues);
-                    list.setAdapter(adapter);
-                }
-            }
-        };
+//        handler = new Handler(){
+//            @Override
+//            public void handleMessage(Message msg) {
+//                if(msg.what==0) {
+//                    adapter = new UserAdapter(LoginActivity.this, allValues);
+//                    list.setAdapter(adapter);
+//                }
+//            }
+//        };
 
         final ProgressDialog dialog = new ProgressDialog(this);
         dialog.setTitle("信息提示");
